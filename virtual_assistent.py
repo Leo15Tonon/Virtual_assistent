@@ -7,8 +7,8 @@ import pyttsx3
 import os
 
 class Virtual_assit():
-    def __init__(self, assist_name, person):
-        self.person = person
+    def __init__(self, assist_name, jarvis):
+        self.jarvis = jarvis
         self.assit_name = assist_name
 
         self.engine = pyttsx3.init()
